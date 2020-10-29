@@ -21,6 +21,12 @@
     justify-content: space-between;
 }
 
+.flex-center-ar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .header-top {
     background: var(--background);
     width: 100vw;
@@ -78,9 +84,82 @@ ul a:hover {
 .content-banner {
     /* background-color: yellow; */
     width: 75em;
+    height: 100%;   
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.content-banner img {
+    width: 100%;
+    max-width: 40em;
+    height: auto;
+}
+
+.content-banner .text-banner {
+    /* background-color: yellowgreen; */
+    height: 100%;
+    width: auto;
+    display: flex;
+    margin-left: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-banner h1 {
+    font-family: var(--font-s);
+    font-size: 80px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: white;
+}
+
+.text-banner p {
+    font-family: var(--font-p);
+    font-size: 24px;
+    color: white;
+    padding-top: -20px;
+    padding-bottom: 50px;
+}
+
+.text-banner a{
+    background-color: var(--red);
+    color: white;
+    font-size: 24px;
+    font-family: var(--font-p);
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.aba-logos {
+    background-color: var(--background);
+    width: 100vw;
+    height: 80px;
+}
+
+.lista-logos {
+    /* background-color: lawngreen; */
+    width: 75em;
     height: 100%;
     margin: auto;
 }
+
+.aba-logos ul {
+    list-style-type: none;
+}
+
+.aba-logos li img {
+    width: 100%;
+    max-width: 20em;
+    height: auto;
+}
+
 @media screen and (max-width: 74.93em) {
     body {
         background-color: var(--blue);
