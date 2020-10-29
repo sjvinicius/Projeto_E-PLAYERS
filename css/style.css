@@ -69,6 +69,18 @@ ul a:hover {
     display: none;
 }
 
+.banner {
+    background-image: linear-gradient(to right, var(--red) , black);
+    width: 100vw;
+    height: 35em;
+}
+
+.content-banner {
+    /* background-color: yellow; */
+    width: 75em;
+    height: 100%;
+    margin: auto;
+}
 @media screen and (max-width: 74.93em) {
     body {
         background-color: var(--blue);
