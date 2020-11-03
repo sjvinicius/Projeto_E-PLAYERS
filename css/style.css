@@ -234,7 +234,7 @@ ul a:hover {
 .content-aba-matches {
     width: 81.25em;
     height: 100%;
-    background-color: var(--background);
+    /* background-color: var(--background); */
     justify-content: space-between;
 }
 
@@ -290,6 +290,130 @@ ul a:hover {
     margin-right: 5em;
     margin-left: 4em;
 }
+
+/*  */
+
+.news {
+    background-color: var(--background);
+    width: 100vw;
+    height: auto;
+}
+
+
+.content-news {
+    /* background-color: chocolate; */
+    width: 75em;
+    height: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.content-card-news{
+    /* background-color: chartreuse; */
+    width: 70%;
+    height: 100%;
+}
+
+.content-card-news h2 {
+    font-family: var(--font-p);
+    font-size: 2,5625em;
+    color: white;
+    padding: 1em 0;
+}
+
+.bloco-news {
+    /* background-color: var(--red); */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-news {
+    width: 14.81em;
+    height: 22.75em;
+    background-image: linear-gradient(white, black);
+    box-shadow: 0 0 25px rgb(124, 124, 124);
+    margin-bottom: 2em;
+}
+
+.card-news h3 {
+    font-size: 0,512em;
+    font-family: var(--font-p);
+    text-transform: uppercase;
+    color: white;
+    padding: 0.25em 1em;
+}
+
+.card-news p {
+    color: white;
+    padding: 0.25em 1.15em;
+}
+
+.aside-news {
+    /* background-color: cornflowerblue; */
+    width: 20%;
+    height: auto;
+    margin: auto;
+}
+
+.aside-news h2 {
+    /* background-color: indianred; */
+    color: white;
+    font-family: var(--font-p);
+    font-size: 1.5em;
+    padding: 1em 0;
+    display: flex;
+    justify-content: center;
+}
+
+.content-aside-news {
+    background-image: linear-gradient(black, grey, black);   
+    height: 87.5%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 0;
+    box-shadow: 0 0 20px black;
+}
+
+.next-match {
+    /* background-color: red; */
+    width: 100%;
+    height: 2.81em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.next-match p { 
+    font-size: 1.25em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.next-match img  {
+    max-width: 2.5em; 
+    height: auto;
+}
+
+.data {
+    /* background-color: grey; */
+    width: 7.9em;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 0.5em;
+    margin-bottom: 3em; 
+}
+
+.data p {
+    font-size: 1.2em;
+    color: white;
+}
+
+/* FIM NEWS */
+
 
 @media screen and (max-width: 74.93em) {
     body {
