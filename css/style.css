@@ -127,7 +127,8 @@ ul a:hover {
     background-color: var(--red);
     color: white;
     font-size: 24px;
-    font-family: var(--font-p);
+    font-family: var(--font-s);
+    font-weight: bold;
     border-radius: 10px;
     padding-left: 25px;
     padding-right: 25px;
@@ -135,6 +136,11 @@ ul a:hover {
     padding-bottom: 10px;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+.text-banner a:hover {
+    box-shadow: black 0 0 40px;
+    text-shadow: white 0 0 20px;
 }
 
 .aba-logos {
@@ -217,6 +223,73 @@ ul a:hover {
     height: auto;
 }
 
+/*  */
+
+.aba-matches {
+    width: 100vw;
+    height: 7.5em;
+    background-color: black
+}
+
+.content-aba-matches {
+    width: 81.25em;
+    height: 100%;
+    background-color: var(--background);
+    justify-content: space-between;
+}
+
+.matches-aovivo, .matches-embreve {
+    /* background-color: violet; */
+    color: #fff;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.matches-aovivo h2, .matches-embreve h2 {
+    font-size: 1.875em; /*30px*/
+    font-family: var(--font-p);
+    font-weight: bolder;
+}
+
+.partida1, .partida2 {
+    /* background-color: yellow; */
+    width: auto;
+    height: auto;
+    font-size: 1.5em; /*30px*/
+    font-family: var(--font-p);
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0.5em;
+}
+
+.partida1 img, .partida2 img {
+    /* background-color: var(--red); */
+    width: 2em;
+    height: auto;
+}
+
+.partida1 p, .partida2 p {
+    margin-left: 0.7em;
+    margin-right: 0.7em;
+}
+
+.time1, .time2 {
+    /* background-color: var(--blue); */
+    display: flex;
+    align-items: center;
+}
+
+.linev {
+    height: 2.5em;
+    border-right: solid 1px #fff;
+    margin-right: 5em;
+    margin-left: 4em;
+}
 
 @media screen and (max-width: 74.93em) {
     body {
