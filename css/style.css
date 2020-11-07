@@ -548,12 +548,23 @@ img {
 /* até 1200px */
 @media screen and (max-width: 74.93em) {
 
+    .header-top {
+        padding-bottom: 6em;
+        padding-top: 2em;
+    }
+
+    .menu {
+        margin-top: 1em;
+    }
+
     .content {
-        width: 63em;
+        width: 61em;
+        display: flex;
+        flex-direction: column;
     }
 
     .content-banner {
-        width: 63em;
+        width: 61em;
     }
 
     .content-banner img {
@@ -561,11 +572,11 @@ img {
     }
 
     .text-banner h1{
-        font-size: 4.5818em;
+        font-size: 4.2em;
     }
 
     .lista-logos {
-        width: 63em;
+        width: 61em;
     }
 
     .aba-logos li img {
@@ -573,18 +584,22 @@ img {
     }
 
     .content-about {
-        width: 63em;
+        width: 61em;
     }
 
     .content-aba-matches {
-        width: 63em;
+        width: 61em;
     }
 
     .matches-aovivo h2{
         font-size: 1.5em;
     }
 
-    .partida1, .partida2 p{
+    .partida1 {
+        font-size: 1.3em;
+    }
+
+    .partida2 {
         font-size: 1.3em;
     }
 
@@ -602,7 +617,11 @@ img {
     }
 
     .content-news {
-        width: 63em;
+        width: 61em;
+    }
+
+    .content-aside-news {
+        width: 14.375em;
     }
 
     .card-news {
@@ -610,7 +629,22 @@ img {
     }
 
     .content-rodape {
-        width: 63em;
+        width: 61em;
+    }
+
+    .social-rodape {
+        width: 19.93em;
+    }
+
+    .social-rodape p{
+        font-size: 1em;
+        padding-top: 1em;
+
+    }
+
+    .social-rodape img {
+        width: 2.5em;
+        height: auto;
     }
 }
 
