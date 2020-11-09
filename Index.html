@@ -17,15 +17,15 @@
                 <img src="/E_Players/Logo_Branco.png" alt="Logo E-players">
             </a>
                 <nav class="menu">
-                <div id="mylinks">
-                    <ul class="flex-center ulmenu">
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Horários</a></li>
-                        <li><a href="#">Campeonatos</a></li>
-                        <li><a href="#">Resultados</a></li>
-                        <li><a href="#">Notícias</a></li>
-                    </ul>
-                </div>
+                    <div id="mylinks">
+                    <ul class="flex-center ">
+                            <li><a href="#">Inicio</a></li>
+                            <li><a href="#">Horários</a></li>
+                            <li><a href="#">Campeonatos</a></li>
+                            <li><a href="#">Resultados</a></li>
+                            <li><a href="#">Notícias</a></li>
+                        </ul>
+                    </div>
                     <a href="#" class="menu-bars" onclick="menubut()" >
                         <i class="fas fa-bars"></i>
                     </a>
@@ -307,14 +307,14 @@
         </div>
     </footer>
     <script>
-        // function menu-but() {
-        //     var ulmenu = document.getElementById("mylinks");
-        //     if (ulmenu.style.display === "none") {
-        //     ulmenu.style.display = "flex";
-        //     } else {
-        //     ulmenu.style.display = "none";
-        //     }
-        // }
+        function menubut() {
+        var ulmenu = document.getElementById("mylinks");
+        if (ulmenu.style.display === "none") {
+        ulmenu.style.display = "flex";
+        } else {
+        ulmenu.style.display = "none";
+        }
+    }
     </script>
 </body>
 </html>

@@ -773,16 +773,27 @@ img {
 @media screen and (max-width: 47.93em) {
 
     .header-top {
-        padding-bottom: 0;
+        padding-bottom: 1em;
         height: auto;
     }
+
+    .flex-center {
+        flex-direction: column;
+        width: 36em;
+        padding-top: 1em;
+    }
+
     .content {
         width: 35em;
     }
 
     .menu {
+        width: 12em;
         display: flex;
         flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 0;
+        padding-top: 1em;
     }
     
     .menu-bars {
@@ -796,11 +807,12 @@ img {
 
     .flex-center {
         flex-direction: column;
+        width: 100%;
     }
 
-    /* .ulmenu {
+    .ulmenu {
         display: flex;
-    } */
+    }
 
     .lista-logos {
         width: 36em;
@@ -863,5 +875,6 @@ img {
 }
 
 /* até 576px */
-/* @media screen and (max-width: 36em) { */
-/* } */
+    @media screen and (max-width: 36em) { 
+
+}
