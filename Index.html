@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/script.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />    
     <title>E-PLAYERS</title>
 </head>
@@ -15,16 +17,18 @@
                 <img src="/E_Players/Logo_Branco.png" alt="Logo E-players">
             </a>
                 <nav class="menu">
-                <ul class="flex-center">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Horários</a></li>
-                    <li><a href="#">Campeonatos</a></li>
-                    <li><a href="#">Resultados</a></li>
-                    <li><a href="#">Notícias</a></li>
-                </ul>
-                <a href="#" class="menu-bars">
-                    <i class="fas fa-bars"></i>
-                </a>
+                <div id="mylinks">
+                    <ul class="flex-center ulmenu">
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Horários</a></li>
+                        <li><a href="#">Campeonatos</a></li>
+                        <li><a href="#">Resultados</a></li>
+                        <li><a href="#">Notícias</a></li>
+                    </ul>
+                </div>
+                    <a href="#" class="menu-bars" onclick="menubut()" >
+                        <i class="fas fa-bars"></i>
+                    </a>
             </nav>
         </div>
     </header>
@@ -292,13 +296,25 @@
                     </form>
                     <div class="social-rodape">
                         <p> Siga-nos em: </p>
-                        <a href="#"><img src="/E_Players/ig-logo.png" alt="Logo da Rede Social Instagram"></a>
-                        <a href="#"><img src="/E_Players/fb-logo.png" alt="Logo da Rede Social Facebook"></a>
-                        <a href="#"><img src="/E_Players/yt-icon.png" alt="Logo da Rede Social Youtube"></a>
+                        <div>
+                            <a href="#"><img src="/E_Players/ig-logo.png" alt="Logo da Rede Social Instagram"></a>
+                            <a href="#"><img src="/E_Players/fb-logo.png" alt="Logo da Rede Social Facebook"></a>
+                            <a href="#"><img src="/E_Players/yt-icon.png" alt="Logo da Rede Social Youtube"></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
+    <script>
+        // function menu-but() {
+        //     var ulmenu = document.getElementById("mylinks");
+        //     if (ulmenu.style.display === "none") {
+        //     ulmenu.style.display = "flex";
+        //     } else {
+        //     ulmenu.style.display = "none";
+        //     }
+        // }
+    </script>
 </body>
 </html>
